@@ -1,0 +1,75 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    background-color: #f0f0f0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group::after {
+    content: ""; display: block; 
+    height: 1px; 
+    background: #ddd; 
+    margin-top: 10px;
+}
+#registration-form {
+    background-color: #ffffff;
+    max-width: 500px; 
+    margin: 0 auto;
+}
+[type="text"], 
+[type="email"], 
+[type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+[type="submit"], 
+[type="reset"] {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px;
+    border-radius : 15px;
+}
+[type="submit"]:hover, 
+[type="reset"]:hover {
+    background-color: #0056b3;
+    cursor:pointer;
+}
+/* [type="text"] {
+    border: 1px solid #ccc
+}
+[type="email"] {
+    border: 1px solid #ccc
+}
+[type="password"] {
+    border: 1px solid #ccc
+} */
+
+form p {
+    padding: 5px;
+}
+form > p {
+    border-bottom: 4px solid #eee;
+}
+form > p:first-child {
+    margin-top: 20px
+}
+label {
+    display: inline-block; 
+    width: 100%;
+}
+select {
+    width : 200px;
+    border: 4px dashed #007bff;
+}
+select:hover {
+    border-color: #aaaaaa;
+}
+h1::after {
+    content: "✨"; 
+    margin-left: 10px;
+}
