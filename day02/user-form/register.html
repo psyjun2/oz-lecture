@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이준희 사이트 회원가입</title>
+</head>
+<body>
+
+    <!-- ===== Header Section with SVG ===== -->
+<header>
+    <h1>Lee Junhee, the 4th generation of one-man start-up</h1>
+
+    <!-- Simple SVG Graphic (Logo Example) -->
+    <svg width="100" height="100" aria-label="Site Logo">
+        <circle cx="50" cy="50" r="40"
+                stroke="black"
+                stroke-width="2"
+                fill="skyblue"/>
+    </svg>
+
+
+
+    <!-- ===== Header Section ===== -->
+    <header>
+            <h1>Please fill out the correct information for membership registration</h1>
+
+    
+     <!-- ===== Navigation Bar ===== -->
+      <nav>
+        <ul>
+            <li><a href="#">HMain page</a></li>
+            <li><a href="#">a popular page</a></li>
+            <li><a href="#">Payment</a></li>
+        </ul>
+      </nav>
+     </header>
+    
+    <!-- ===== Main Content ===== -->
+    <main>
+        <section>
+
+    <!-- ===== Registration Section ===== -->
+<section>
+    
+    <!-- Section Title -->
+    <h2>Registration Form</h2>
+        
+    <!-- ===== Form Start ===== -->
+        
+            <form action="#" method="POST">
+            
+    <!-- ===== The first Playset group ===== -->
+            
+            <fieldset>
+                <legend>Basic Information</legend>
+                
+                <!-- Name Input -->
+                <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                </p>
+                
+                 <!-- Email Input -->
+                <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                </p>
+                
+                <!-- Phone number Input -->
+                <p>
+                <label for="Phone_number">Phone number</label>
+                <input type="tel" id="Phone_number" name="Phone_number">
+                </p>
+               
+                 <!-- Birth Date Input -->
+                <p>
+                <label for="birthdate">Birth Date</label>
+                <input type="date" id="birthdate" name="birthdate">
+                </p>
+                
+                
+                <!-- Age Input -->
+                <p>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="18" max="100">
+                </p>
+                
+                <!-- Satisfaction Range Input -->
+                <p>
+                <label for="satisfaction">Service Satisfaction
+                    (1point to 10 points)</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+                </p>
+            </fieldset>
+
+
+            <!-- ===== The 2nd Playset Group ===== -->
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male">
+                <input type="radio" id="male" name="gender" value="male"> Male
+                </label>
+
+                <label for="female">
+                <input type="radio" id="female" name="gender" value="female"> Female
+                </label>
+
+                <label for="other">
+                <input type="radio" id="other" name="gender" value="other"> Other
+                </label>
+                </fieldset>
+
+            
+            <!-- ===== The third Playset group ===== -->
+
+            <fieldset>
+                    <legend>Interests</legend>
+                    <label for="Tennis">
+                    <input type="checkbox" id="Tennis" name="interests" value="Tennis"> Tennis
+                    </label>
+
+                    <label for="Soccer">
+                        <input type="checkbox" id="Soccer" name="interests" value="Soccer"> Soccer
+                    </label>
+
+                    <label for="reading">
+                        <input type="checkbox" id="reading" name="interests" value="reading"> Reading
+                    </label>
+                </fieldset>
+
+
+            <!-- ===== Country Selection Section ===== -->
+
+            <section>
+                <p>
+                <label for="country">Select your country of residence
+                </label>
+                
+                <select id="country" name="country">
+                    <option value="southkorea">South Korea</option>
+                    <option value="usa">USA</option>
+                    <option value="japan">Mexico</option>
+                    <option value="china">Canada</option>
+                    <option value="uk">South Africa</option>
+                    <option value="uk">Argentina</option>
+                    </select>
+                    </p>
+            </section>
+
+            <!-- ===== Form Buttons ===== -->
+
+               
+                    <button type="submit">register</button>
+                    <button type="reset">Reset</button>
+            
+
+
+            <!-- ===== Sidebar Section with Audio ===== -->
+            <aside>
+                <h3>Registration Tips</h3>
+                <ul>
+                    <li>Use a valid email address.</li>
+                    <li>Create a strong password.</li>
+                    <li>Review your details before submitting.</li>
+                </ul>
+
+             <br>
+             <br>
+
+
+            <!-- Sample Audio File with Controls -->
+              
+                <h3>the sound of a horse</h3>
+                <audio src="https://www.w3schools.com/html/horse.mp3" controls>
+                    Your browser does not support the audio element.
+                </audio>
+            </aside>
+
+            <br>
+            <br>
+
+             <!-- Sample Video with Controls -->
+        
+        <section>
+            <h3>Cute animation</h3>
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="300">
+            Your browser does not support the video tag.
+        </section>
+    </form>
+
+             
+            <!-- ===== Form End ===== -->
+
+            <br>
+
+
+        <!-- ===== Article Section with Canvas ===== -->
+<article>
+    <h3>Why Register?</h3>
+    <p>
+        Registering allows you to access exclusive features,
+        receive personalized updates, and enjoy premium services.
+    </p>
+
+    <!-- Canvas Area (Intended for drawing text or shapes via JavaScript) -->
+    <!-- JavaScript could later be added to draw welcome text or charts -->
+    <canvas id="infoCanvas" width="300" height="150">
+        Your browser does not support the canvas element.
+    </canvas>
+</article>
+
+
+        <!-- ===== Sidebar Section ===== -->
+        <aside>
+            <h3>Registration Tips</h3>
+            <ul>
+                <li>Use a valid email address for verification.</li>
+                <li>Create a strong password with letters and numbers.</li>
+                <li>Ensure your age meets the minimum requirement.</li>
+            </ul>
+
+            <h3>Contact Support</h3>
+            <p>
+                Need help? <a href="#">Contact our support team</a>.
+            </p>
+        </aside>
+
+        </section>
+    </main>
+
+        
+        <!-- ===== Page Footer ===== -->
+   
+        <br>
+        <br>
+   
+<footer>
+        <!-- Contact Link -->
+    <p>
+        <a href="#">Send an e-mail</a>
+    </p>
+
+        <!-- YouTube Link -->
+    <p>
+        Follow us on 
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+            YouTube
+        </a>
+
+        <p>© 2026 Your Website</p>
+    </p>
+</footer>
+
+</body>
+</html>
